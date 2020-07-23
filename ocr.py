@@ -1,0 +1,2 @@
+def imgocr(file):
+    pass
