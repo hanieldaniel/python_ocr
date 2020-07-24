@@ -1,6 +1,14 @@
 import os
 
 def get_image_files(_folder):
+    """
+    Get list of image files with '.png', '.jpg', '.jpeg', '.jfif', '.tiff', '.bmp' extensions in the folder
+    Parameters:
+                    folder (str): Path of the folder
+
+            Returns:
+                    filenames (list): List of filename strings 
+    """
 
     if os.path.isdir(_folder):
         ext_filter_set = {'.png', '.jpg', '.jpeg', '.jfif', '.tiff', '.bmp'}

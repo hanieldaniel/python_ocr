@@ -6,7 +6,7 @@ def check_for_images(_folder):
     """
 
     has_image_file = False
-    image_extensions = {'.png', '.jpg', '.jpeg', '.tiff', '.bmp'}
+    image_extensions = {'.png', '.jpg', '.jpeg', '.jfif', '.tiff', '.bmp'}
 
     try:
         all_files = os.listdir(_folder)
